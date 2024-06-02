@@ -3661,8 +3661,13 @@ __metadata:
     release-it: ^15.0.0
     typescript: ^5.2.2
   peerDependencies:
+    "@react-navigation/native": "*"
+    "@react-navigation/stack": "*"
     react: "*"
     react-native: "*"
+    react-native-gesture-handler: "*"
+    react-native-safe-area-context: "*"
+    react-native-screens: "*"
   languageName: unknown
   linkType: soft
 
