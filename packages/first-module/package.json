@@ -76,8 +76,13 @@
     "@types/react": "^18.2.44"
   },
   "peerDependencies": {
+    "@react-navigation/native": "*",
+    "@react-navigation/stack": "*",
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-gesture-handler": "*",
+    "react-native-safe-area-context": "*",
+    "react-native-screens": "*"
   },
   "workspaces": [
     "example"
